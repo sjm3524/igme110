@@ -1,0 +1,60 @@
+/* All of your CSS for the Positioning Exercise goes in this file */ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+ header, footer, article, aside {border: 1px solid black;}
+ 
+ html {
+    background-image: url(http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h2 { font-size: 1.1em; }
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+}
+
+header {
+    height: 50px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    padding: 0 1em;
+    margin-bottom:1em;
+    height: 500px;
+}
+
+article {
+    float: right;
+    width: 60%;
+    height: 500px;
+    padding: 0 1em;
+    margin-bottom: 1em;
+    overflow: scroll;
+}
+
+#portrait {
+    border: 1px solid black;
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+}
